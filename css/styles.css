@@ -36,3 +36,10 @@ img {
 input {
     width: 309px;
 }
+
+#footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
