@@ -1,39 +1,38 @@
-
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>David Bernát's Personal Site</title>
-        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-        <style>
-          /* Background gradient */
-          body {
-              background: linear-gradient(to bottom right, #e0f7fa, #ffffff);
-              color: #000000; /* Black for main text */
-              min-height: 100vh;
-              padding: 20px;
-          }
-          /* Darker blue for headings */
-          h1, h2, h3, h4, h5, h6 {
-              color: #007b8f; /* Darker blue for headings */
-          }
-          /* Darker blue for links */
-          a {
-              color: #005f73;
-              text-decoration: none;
-          }
-          a:hover {
-              color: #028090; /* Lighter blue on hover */
-          }
-          /* Dark gray for subtitles */
-          .text-muted {
-              color: #5f6368;
-          }
-        </style>
-    </head>
-    <body class="container mt-5">
-        
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>David Bernát's Personal Site</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Background gradient */
+        body {
+            background: linear-gradient(to bottom right, #e0f7fa, #ffffff);
+            color: #000000; /* Black for main text */
+            min-height: 100vh;
+            padding: 20px;
+        }
+        /* Darker blue for headings */
+        h1, h2, h3, h4, h5, h6 {
+            color: #007b8f; /* Darker blue for headings */
+        }
+        /* Darker blue for links */
+        a {
+            color: #005f73;
+            text-decoration: none;
+        }
+        a:hover {
+            color: #028090; /* Lighter blue on hover */
+        }
+        /* Dark gray for subtitles */
+        .text-muted {
+            color: #5f6368;
+        }
+    </style>
+</head>
+<body class="container mt-5">
+
 
 <!-- Contact Section with Photo and Grid -->
 
@@ -42,172 +41,246 @@
 <!-- Contact Section with Photo and Grid with Vertical Alignment -->
 <div class="row align-items-center">
 
-<div class="row align-items-center" style="margin-top: 30px; margin-bottom: 30px;">
-    <div class="col-md-4">
-        <img src="images/my_photo_cropped.png" alt="David Bernát's Photo" class="img-fluid rounded-circle" style="max-width: 150px;">
-    </div>
-    <div class="col-md-8">
-        <p style="padding: 10px;">
-            Granitova 1115/8, 198 00 Praha Hloubětín, Czech Republic<br>
-            <em>Email: </em><a href="mailto: dafxer@gmail.com">dafxer@gmail.com</a><br>
-            <em>Telephone: </em><a href="tel: 00420608190309">+420 608 190 309</a><br>
-            <em>LinkedIn: </em><a href="https://www.linkedin.com/in/david-bern%C3%A1t-8456a9147/" target="_blank">My profile</a>
-        </p>
+    <div class="row align-items-center" style="margin-top: 30px; margin-bottom: 30px;">
+        <div class="col-md-4">
+            <img src="images/my_photo_cropped.png" alt="David Bernát's Photo" class="img-fluid rounded-circle"
+                 style="max-width: 150px;">
+        </div>
+        <div class="col-md-8">
+            <p style="padding: 10px;">
+                Granitova 1115/8, 198 00 Praha Hloubětín, Czech Republic<br>
+                <em>Email: </em><a href="mailto: dafxer@gmail.com">dafxer@gmail.com</a><br>
+                <em>Telephone: </em><a href="tel: 00420608190309">+420 608 190 309</a><br>
+                <em>LinkedIn: </em><a href="https://www.linkedin.com/in/david-bern%C3%A1t-8456a9147/" target="_blank">My
+                profile</a><br>
+                <em>Download this CV: </em><strong><a href="#" id="downloadPDFLink">Printable PDF Version</a></strong>
+            </p>
+        </div>
     </div>
 </div>
-</div>
 
 
-
-                
 <!-- About Me Section -->
 <div style="background-color: #e7f3fe; padding: 20px; border: 1px solid #007b8f; border-radius: 8px; margin-bottom: 20px;">
     <h3>About Me</h3>
-    <p>I am a friendly and curious person. I have an open-minded, progressive personality looking for new challenges and opportunities. 
-    I dispose of a sense of order, reliability, and carefulness.</p>
+    <p>I am a friendly and curious person. I have an open-minded, progressive personality looking for new challenges and
+        opportunities.
+        I dispose of a sense of order, reliability, and carefulness.</p>
 </div>
 
 
+<!-- Career History Section -->
+<h3>Career History</h3>
 
-
-        <!-- Career History Section -->
-        <h3>Career History</h3>
-
-        <div class="card mb-4">
-          <div class="card-body">
-            <h5 class="card-title">Junior IT Administrator</h5>
-            <h6 class="card-subtitle mb-2 text-muted">4Life Direct Insurance Services s.r.o.</h6>
-            <ul>
-              <li>Taking care of all IT endpoint hardware in Czech and Slovak branches - from spring 2020 also for home office devices.</li>
-              <li>Responsible for all networking infrastructure and maintenance in both branches.</li>
-              <li>Users maintenance in AD, W365, VCC (telco), and Compass (CRM).</li>
-              <li>OS and software updates.</li>
-              <li>Security risks evaluation and countermeasures introduced on a regular basis.</li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="card mb-4">
-          <div class="card-body">
-            <h5 class="card-title">IT Administrator</h5>
-            <h6 class="card-subtitle mb-2 text-muted">4MAD, Plasma Place Call Center Department</h6>
-            <ul>
-              <li>Administration of daktela.com 4MAD account (CRM + telco webapp)</li>
-              <li>Responsibility for HW and software components for all users</li>
-              <li>Generating reports for team leader</li>
-              <li>1st line of helpdesk and troubleshooting daktela.com issues, escalating to daktela.com helpdesk if needed</li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="card mb-4">
-          <div class="card-body">
-            <h5 class="card-title">Retail Chain Helpdesk Officer</h5>
-            <h6 class="card-subtitle mb-2 text-muted">Solvent s.r.o., Department of IT Operations</h6>
-            <ul>
-              <li>Working with internal ICS ticketing system</li>
-              <li>Team responsibility for HW and SW in over 600 retail stores (Teta Drogerie) and 100 franchises (Top Drogerie).</li>
-              <li>Solving hardware and software issues reported to the ticketing system.</li>
-              <li>Cooperation with IT-wholesale and IT-BI departments to fulfill company goals.</li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="card mb-4">
-          <div class="card-body">
-            <h5 class="card-title">Scientific Laboratory Assistant</h5>
-            <h6 class="card-subtitle mb-2 text-muted">Apigenex s.r.o., Department of Organic Chemistry</h6>
-            <ul>
-              <li>LC-MS daily maintenance, analytical and preparative analysis.</li>
-              <li>Production of approximately 1000 compounds according to combinatorial chemistry study templates.</li>
-              <li>Chemo-luminiscence nitrogen detector analysis and out-portioning of synthesized peptides for external companies.</li>
-            </ul>
-          </div>
-        </div>
-
-        <hr class="my-4">
-        
-        <!-- Education Section -->
-        <h3>Education</h3>
-
-        <div class="card mb-4">
-          <div class="card-body">
-            <h5 class="card-title">Self-education in Python 3.9 programming skills</h5>
-            <p>Learning from various sources since April 2021, including courses on Udemy and books.</p>
-          </div>
-        </div>
-
-        <div class="card mb-4">
-          <div class="card-body">
-            <h5 class="card-title">Bachelor's Degree in Medical Technics</h5>
-            <h6 class="card-subtitle mb-2 text-muted">1st Faculty of Medicine, Charles University, Prague</h6>
-            <p>Study focus: IT basics, Medical and Laboratory Information systems, Laboratory techniques, Chemistry, Biochemistry.</p>
-          </div>
-        </div>
-
-        <div class="card mb-4">
-          <div class="card-body">
-            <h5 class="card-title">3-Year Study of General Medicine</h5>
-            <h6 class="card-subtitle mb-2 text-muted">1st Faculty of Medicine, Charles University, Prague</h6>
-            <p>Theoretical subjects in General Medicine, focusing on Biochemistry, Anatomy, and Physiology.</p>
-          </div>
-        </div>
-
-        <hr class="my-4">
-
-        <!-- Skills Section -->
-        <h3>Skills</h3>
-        <div class="row">
-            <div class="col-md-4">
-                <strong>IT Skills</strong>
-                <ul>
-                    <li>MS Windows 10 admin - ⭐⭐⭐⭐⭐</li>
-                    <li>Python Intermediate - ⭐⭐⭐⭐</li>
-                    <li>HTML/CSS - ⭐⭐⭐</li>
-                    <li>postgreSQL - ⭐⭐</li>
-                    <li>php - ⭐</li>
-                </ul>
-            </div>
-            <div class="col-md-4">
-                <strong>Languages</strong>
-                <ul>
-                    <li>Czech - native</li>
-                    <li>Slovak - native</li>
-                    <li>English - written - ⭐⭐⭐⭐</li>
-                    <li>English - spoken - ⭐⭐⭐</li>
-                </ul>
-            </div>
-            <div class="col-md-4">
-                <strong>Other</strong>
-                <ul>
-                    <li>Driver Licence B from 2000 - ⭐⭐⭐⭐⭐</li>
-                </ul>
-            </div>
-        </div>
-
-        <hr class="my-4">
-
-        <!-- Hobbies Section -->
-        <h3>Hobbies and Interests</h3>
+<div class="card mb-4">
+    <div class="card-body">
+        <h5 class="card-title">Junior IT Administrator</h5>
+        <h6 class="card-subtitle mb-2 text-muted">4Life Direct Insurance Services s.r.o.</h6>
         <ul>
-            <li>Music and DJ-ing - more than 15 years actively performing in several Prague nightclubs. <br>
-                My older mixes at <a href="https://soundcloud.com/david-dafx-bern-t" target="_blank">SoundCloud</a></li>
-            <li>Light Saber duelling<br>
-                <a href="https://www.facebook.com/search/top?q=prague%20saber%20academy" target="_blank">Prague Saber Academy at FB</a></li>
-            <li>Technical trends</li>
-            <li>Snowboarding</li>
-            <li>Swimming</li>
-            <li>Psychology</li>
+            <li>Taking care of all IT endpoint hardware in Czech and Slovak branches - from spring 2020 also for home
+                office devices.
+            </li>
+            <li>Responsible for all networking infrastructure and maintenance in both branches.</li>
+            <li>Users maintenance in AD, W365, VCC (telco), and Compass (CRM).</li>
+            <li>OS and software updates.</li>
+            <li>Security risks evaluation and countermeasures introduced on a regular basis.</li>
+        </ul>
+    </div>
+</div>
+
+<div class="card mb-4">
+    <div class="card-body">
+        <h5 class="card-title">IT Administrator</h5>
+        <h6 class="card-subtitle mb-2 text-muted">4MAD, Plasma Place Call Center Department</h6>
+        <ul>
+            <li>Administration of daktela.com 4MAD account (CRM + telco webapp)</li>
+            <li>Responsibility for HW and software components for all users</li>
+            <li>Generating reports for team leader</li>
+            <li>1st line of helpdesk and troubleshooting daktela.com issues, escalating to daktela.com helpdesk if
+                needed
+            </li>
+        </ul>
+    </div>
+</div>
+
+<div class="card mb-4">
+    <div class="card-body">
+        <h5 class="card-title">Retail Chain Helpdesk Officer</h5>
+        <h6 class="card-subtitle mb-2 text-muted">Solvent s.r.o., Department of IT Operations</h6>
+        <ul>
+            <li>Working with internal ICS ticketing system</li>
+            <li>Team responsibility for HW and SW in over 600 retail stores (Teta Drogerie) and 100 franchises (Top
+                Drogerie).
+            </li>
+            <li>Solving hardware and software issues reported to the ticketing system.</li>
+            <li>Cooperation with IT-wholesale and IT-BI departments to fulfill company goals.</li>
+        </ul>
+    </div>
+</div>
+
+<div class="card mb-4">
+    <div class="card-body">
+        <h5 class="card-title">Scientific Laboratory Assistant</h5>
+        <h6 class="card-subtitle mb-2 text-muted">Apigenex s.r.o., Department of Organic Chemistry</h6>
+        <ul>
+            <li>LC-MS daily maintenance, analytical and preparative analysis.</li>
+            <li>Production of approximately 1000 compounds according to combinatorial chemistry study templates.</li>
+            <li>Chemo-luminiscence nitrogen detector analysis and out-portioning of synthesized peptides for external
+                companies.
+            </li>
+        </ul>
+    </div>
+</div>
+
+<hr class="my-4">
+
+<!-- Education Section -->
+<h3>Education</h3>
+
+<div class="card mb-4">
+    <div class="card-body">
+        <h5 class="card-title">Self-education in Python 3.9 programming skills</h5>
+        <p>Learning from various sources since April 2021, including courses on Udemy and books.</p>
+    </div>
+</div>
+
+<div class="card mb-4">
+    <div class="card-body">
+        <h5 class="card-title">Bachelor's Degree in Medical Technics</h5>
+        <h6 class="card-subtitle mb-2 text-muted">1st Faculty of Medicine, Charles University, Prague</h6>
+        <p>Study focus: IT basics, Medical and Laboratory Information systems, Laboratory techniques, Chemistry,
+            Biochemistry.</p>
+    </div>
+</div>
+
+<div class="card mb-4">
+    <div class="card-body">
+        <h5 class="card-title">3-Year Study of General Medicine</h5>
+        <h6 class="card-subtitle mb-2 text-muted">1st Faculty of Medicine, Charles University, Prague</h6>
+        <p>Theoretical subjects in General Medicine, focusing on Biochemistry, Anatomy, and Physiology.</p>
+    </div>
+</div>
+
+<hr class="my-4">
+
+<!-- Skills Section -->
+<h3>Skills</h3>
+
+<div class="row">
+    <div class="col-md-6">
+        <strong>Coding Skills</strong>
+        <ul>
+            <li>General Python/Scripting - ⭐⭐⭐</li>
+            <li>Data Science</li>
+            <ul>
+                <li>Pandas - ⭐⭐⭐</li>
+                <li>NumPy - ⭐⭐</li>
+                <li>Matplotlib/Seaborn - ⭐⭐</li>
+                <li>Plotly/Dash - ⭐⭐</li>
+                <li>Scikit-learn - ⭐</li>
+            </ul>
+            <li>Web Development</li>
+            <ul>
+                <li>Flask - ⭐⭐</li>
+                <li>Django - ⭐⭐</li>
+            </ul>
+            <li>Desktop App Development</li>
+            <ul>
+                <li>Tkinter (Custom) - ⭐⭐⭐</li>
+                <li>Pygame - ⭐⭐⭐</li>
+            </ul>
+            <li>Web Automation/Scraping</li>
+            <ul>
+                <li>Selenium - ⭐⭐</li>
+                <li>BeautifulSoup - ⭐⭐</li>
+            </ul>
+            <li>Frontend</li>
+            <ul>
+                <li>HTML/CSS - ⭐</li>
+                <li>Bootstrap 5 - ⭐⭐</li>
+            </ul>
+            <li>Other</li>
+            <ul>
+                <li>OpenCV2 - ⭐</li>
+                <li>SQLAlchemy - ⭐</li>
+            </ul>
+        </ul>
+    </div>
+
+    <div class="col-md-6">
+        <strong>IT Administration</strong>
+        <ul>
+            <li>Active Directory - ⭐⭐</li>
+            <li>MS Server - ⭐⭐</li>
+            <li>MS Azure - ⭐</li>
+            <li>Windows 10 Administrator - ⭐⭐⭐</li>
+            <li>Hardware Troubleshooting - ⭐⭐⭐</li>
         </ul>
 
-<footer class="mt-5">
-    <hr>
-    <p class="text-center">© <span id="year"></span>, David Bernát</p>
-</footer>
-        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    </body>
+        <strong>Languages</strong>
+        <ul>
+            <li>Czech - native</li>
+            <li>Slovak - native</li>
+            <li>English - written - ⭐⭐⭐</li>
+            <li>English - spoken - ⭐⭐</li>
+        </ul>
+
+        <strong>Others</strong>
+        <ul>
+            <li>Driver's licence - active driver since 2000 - ⭐⭐⭐</li>
+        </ul>
+    </div>
+</div>
+
+
+    <hr class="my-4">
+
+    <!-- Hobbies Section -->
+    <h3>Hobbies and Interests</h3>
+    <ul>
+        <li>Music and DJ-ing - more than 15 years actively performing in several Prague nightclubs. <br>
+            My older mixes at <a href="https://soundcloud.com/david-dafx-bern-t" target="_blank">SoundCloud</a></li>
+        <li>Light Saber duelling<br>
+            <a href="https://www.facebook.com/search/top?q=prague%20saber%20academy" target="_blank">Prague Saber
+                Academy at FB</a></li>
+        <li>Technical trends</li>
+        <li>Snowboarding</li>
+        <li>Swimming</li>
+        <li>Psychology</li>
+    </ul>
+    
+    <footer class="mt-5">
+        <hr>
+        <div class="text-center">
+            <button id="downloadPDFButton" class="btn btn-primary mb-3">Download as PDF</button>
+        </div>
+        <p class="text-center">© <span id="year"></span>, David Bernát</p>
+    </footer>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.3/html2pdf.bundle.min.js"></script>
+    <script>
+        // Funkce pro generování PDF
+        function generatePDF() {
+            var element = document.body; // Vybere celý dokument
+            html2pdf().from(element).save();
+        }
+    
+        // Přidání funkcionality pro hypertext
+        document.getElementById('downloadPDFLink').addEventListener('click', function (event) {
+            event.preventDefault();
+            generatePDF();
+        });
+    
+        // Přidání funkcionality pro tlačítko
+        document.getElementById('downloadPDFButton').addEventListener('click', function () {
+            generatePDF();
+        });
+    </script>
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
 </html>
 <script>
     document.addEventListener("DOMContentLoaded", function() {
