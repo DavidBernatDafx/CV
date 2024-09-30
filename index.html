@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>David Bernát's CV</title>
+    <title>David Bernát's Personal Site</title>
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <style>
         /* Background gradient */
@@ -28,6 +28,12 @@
         /* Dark gray for subtitles */
         .text-muted {
             color: #5f6368;
+        }
+        @media print {
+        /* Zajistí zalomení před nadpisem Skills */
+        h3 {
+          page-break-before: always;
+            }
         }
     </style>
 </head>
@@ -259,24 +265,23 @@
         
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.3/html2pdf.bundle.min.js"></script>
     <script>
-        // Funkce pro generování PDF
-        function generatePDF() {
+        document.getElementById('downloadPDFButton').addEventListener('click', function () {
             var element = document.body; // Vybere celý dokument
-            html2pdf().from(element).save();
-        }
-    
-        // Přidání funkcionality pro hypertext
-        document.getElementById('downloadPDFLink').addEventListener('click', function (event) {
-            event.preventDefault();
-            generatePDF();
+            html2pdf().set({
+                filename: 'David_Bernat_CV.pdf' // Předdefinovaný název souboru
+            }).from(element).save();
         });
     
-        // Přidání funkcionality pro tlačítko
-        document.getElementById('downloadPDFButton').addEventListener('click', function () {
-            generatePDF();
+        document.getElementById('downloadPDFLink').addEventListener('click', function (event) {
+            event.preventDefault(); // Zamezí výchozímu chování odkazu
+            var element = document.body; // Vybere celý dokument
+            html2pdf().set({
+                filename: 'David_Bernat_CV.pdf' // Předdefinovaný název souboru
+            }).from(element).save();
         });
     </script>
-    
+
+   
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
